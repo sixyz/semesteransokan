@@ -130,7 +130,7 @@ function onShowSuccess() {
         //var listEnumerator = listItems.getEnumerator();
         while (listEnumerator.moveNext()) {
 
-            //Keyvans lösnings funktion för att bara visa aktuella ansökningar
+            
 
             if (currentDate > listEnumerator.get_current().get_item("Startdatum"))
                 continue;            
